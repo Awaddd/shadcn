@@ -5,7 +5,6 @@
 	import { H4 } from '$components/ui/typography/h4';
 	import { Text } from '$components/ui/typography/Text';
 	import { Button } from '$components/ui/button';
-	import { cn } from '$lib/utils';
 
 	import {
 		Card,
@@ -38,7 +37,7 @@
 <H4>And this is a H4</H4>
 <Text>And this is a paragraph</Text>
 
-<div class={cn('mt-6')}>
+<div class="mt-6">
 	<Button>Button</Button>
 	<Button variant="secondary">Button</Button>
 	<Button variant="destructive">Button</Button>
